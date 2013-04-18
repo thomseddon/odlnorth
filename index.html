@@ -59,8 +59,14 @@
 		color: #fff;
 		text-align: center;
 		margin-top: 40px;
-		padding: 30px 0 20px;
+		padding: 30px 0 10px;
 		font-size: 13px;
+	}
+	#footer a {
+		color: #666;
+	}
+	#footer a:hover {
+		color: #fff;
 	}
 	</style>
 	<script src="js/vendor/custom.modernizr.js"></script>
@@ -93,7 +99,7 @@
 					</div>
 					<div class="small-4 columns">
 						<h5>Who Can Use It</h5>
-						<p>The lab is open to everyone. If you want to test a responsive design or an app your developing then just come along, use any device and our WiFi.<br><a href="#visit">Visit the lab</a></p>
+						<p>The lab is open to everyone. If you want to test a responsive design or an app you're developing then just come along, use any device and our WiFi (fastest in Manchester!).<br><a href="#visit">Visit the lab</a></p>
 					</div>
 				</div>
 			</section>
@@ -160,7 +166,7 @@
 				<div class="row">
 					<div class="small-4 columns">
 						<h5>Contribute</h5>
-						<p>The more devices we have the more useful the lab will be to everyone. If you have old mobile or a device that you no longer use that you would be willing to contribute then please just <a class="email" href="#">email</a> or <a href="http://twitter.com/ODLNorth">tweet</a> us<p>
+						<p>The more devices we have the more useful the lab will be to everyone. If you have old mobile, or a device that you no longer use that you would be willing to contribute, then please just <a class="email" href="#">email</a> or <a href="http://twitter.com/ODLNorth">tweet</a> us.<p>
 					</div>
 					<div class="small-4 columns">
 						<h5>Contributors</h5>
@@ -189,22 +195,19 @@
 		</div>
 	</div>
 
-	<div id="footer">&copy; 2013 Open Device Lab North</div>
+	<div id="footer">
+		<p>&copy; 2013 Open Device Lab North</p>
+		<p><a href="https://github.com/nightworld/odlnorth">https://github.com/nightworld/odlnorth</a></p>
+	</div>
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-	
 	  ga('create', 'UA-39913422-2', 'devicelabnorth.org');
 	  ga('send', 'pageview');
-	
 	</script>
-	<script>
-	document.write('<script src=' +
-		('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
-		'.js><\/script>')
-	</script>
+	<script>document.write('<script src=' + ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') + '.js><\/script>')</script>
 	<script src="js/foundation.min.js"></script>
 	<script src="js/foundation/foundation.magellan.js"></script>
 	<script>$(document).foundation();</script>
